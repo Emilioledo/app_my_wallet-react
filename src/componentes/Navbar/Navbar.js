@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+/*Componentes*/
+import NavbarBtn from './NavbarBtn'
+
 export default class Navbar extends Component {
 
     estiloNavbar () {
@@ -17,17 +20,11 @@ export default class Navbar extends Component {
         }
     }
 
-    horizontalLi (){
-        return {
-            float: 'left',
-        }  
-    }
-
     render() {
         return (
             <div>
               <ul style={this.estiloNavbar()} id="nav">
-                  /*botones*/
+                  <NavbarBtn namebtn={"Inicio"}></NavbarBtn>
               </ul>
             </div>
         )

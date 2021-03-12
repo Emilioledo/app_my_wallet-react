@@ -1,0 +1,12 @@
+.form {
+    /*Bordes*/
+    border-radius: 15px;
+    background: #5859DE;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+
+    /*Font*/
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
